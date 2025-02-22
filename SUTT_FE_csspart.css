@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*box-sizing: border-box;*/
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.leftHeader{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 17px;
+}
+
+.drop-downs{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    font-size: 15.5px;
+}
+
+.CC_Icon{
+    margin-top: 20px;
+    margin-left: 115px;
+    width: 25px;
+    height: 25px;
+}
+
+.headerButtons{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+.headerButtons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.headerButtons button:first-child{
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 6px;
+    border-color: rgb(48, 94, 255);
+    color: rgb(0, 105, 255);
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.headerButtons button:last-child{
+    background-color:rgb(62, 102, 245);
+    border-radius: 6px;
+    border-color: rgb(62, 102, 245);
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.bannerSection{
+    position: relative;
+    margin-left: 435px;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.slides{
+    display: flex;
+    width: 400%;
+    animation: 2s forwards;
+}
+  
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+  
+
+.im_here_to{
+    margin-top: 8px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.compassImage{
+    width: 25px;
+    height: 25px;
+}
+
+.im_here_to button{
+    margin-left: 15px;
+    size: 10px;
+    padding: 5px;
+    gap: 15px;
+    border-radius: 6px;
+    border-color: rgb(25,40,57);
+}
+
+.one_thing{
+    margin-left: 200px;
+}
+
+.next1{
+    max-width: 1280px;
+}
